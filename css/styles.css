@@ -109,6 +109,13 @@ body {
   column-gap: 50px;
   margin-left: auto;
 }
+
+.phone-svg,
+.mail-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 /* Logo blu part */
 .logo-header {
   font-family: "Raleway", sans-serif;
@@ -264,7 +271,7 @@ body {
   border-radius: 4px;
   margin-bottom: 30px;
   background-color: var(--background-four-color);
-    }
+}
 
 .benefits-list-item-first::before {
   background-image: url(../images/svg/antenna.svg);
@@ -285,7 +292,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-light);
-  }
+}
 
 .section-two-text {
   line-height: 1.71;
@@ -355,7 +362,7 @@ body {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  }
+}
 .social-list-item-link:hover,
 .social-list-item-link:focus {
   background-color: var(--accent-color);
@@ -365,24 +372,22 @@ body {
   fill: var(--primary-text-color-theme-dark);
 }
 .social-list-icon {
-  /* width: 20px;
-  height: 20px; */
   fill: #afb1b8;
 }
 /* ======= Footer =======*/
 
 .footer {
-    padding-top: 60px;
+  padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--bacground-text-color-theme-dark);
-  }
+}
 .footer-container {
   display: flex;
   align-items: baseline;
-  }
-  .footer-list-address {
-    margin-right: 70px;
-  }
+}
+.footer-list-address {
+  margin-right: 70px;
+}
 .address-footer {
   margin-top: 20px;
 }
@@ -428,7 +433,6 @@ body {
 }
 .link-footer {
   background-color: rgba(255, 255, 255, 0.1);
-  
 }
 .social-list-icon-footer {
   fill: var(--primary-text-color-theme-dark);
