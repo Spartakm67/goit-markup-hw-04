@@ -374,6 +374,29 @@ body {
 .social-list-icon {
   fill: #afb1b8;
 }
+/* ====== Clients section ====== */
+.clients-list {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+.clients-list-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+.clients-list-item-link {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.clients-list-icon {
+  justify-content: center;
+  align-items: center;
+}
 /* ======= Footer =======*/
 
 .footer {
