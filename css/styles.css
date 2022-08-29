@@ -261,31 +261,16 @@ body {
 .benefits-list-item:not(:last-child) {
   margin-right: 30px;
 }
-
-.benefits-list-item::before {
-  display: block;
-  content: "";
+.benefits-icon {
+  display: flex;
   height: 120px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   margin-bottom: 30px;
   background-color: var(--background-four-color);
 }
 
-.benefits-list-item-first::before {
-  background-image: url(../images/svg/antenna.svg);
-}
-.benefits-list-item-second::before {
-  background-image: url(../images/svg/clock.svg);
-}
-.benefits-list-item-three::before {
-  background-image: url(../images/svg/diagram.svg);
-}
-.benefits-list-item-four::before {
-  background-image: url(../images/svg/astronaut.svg);
-}
 .section-two-header {
   font-size: 14px;
   line-height: 1.14;
@@ -470,12 +455,15 @@ body {
 .social-list-icon-footer {
   fill: var(--primary-text-color-theme-dark);
 }
-/* === Portfolio tab css === */
+/* ======= Portfolio ======= */
 
 .list-portfolio {
   color: var(--secodary-text-color-theme-light);
 }
-
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .portfolio-header {
   font-size: 18px;
   line-height: 2;
