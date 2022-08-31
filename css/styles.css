@@ -75,9 +75,6 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container {
@@ -371,15 +368,10 @@ body {
   column-gap: 30px;
   justify-content: center;
 }
-.clients-list-item {
-  /* width: 170px;
-  height: 92px;
-  border: 1px solid currentColor;
-  border-radius: 4px; */
-}
+
 .clients-list-item-link:hover,
 .clients-list-item-link:focus {
-  border: 4px solid var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 .clients-list-item-link:hover .clients-list-icon,
 .clients-list-item-link:focus .clients-list-icon {
@@ -391,7 +383,6 @@ body {
   height: 92px;
   justify-content: center;
   align-items: center;
-  /* height: 100%; */
   border: 1px solid var(--svg-icon-color);
   border-radius: 4px;
 }
